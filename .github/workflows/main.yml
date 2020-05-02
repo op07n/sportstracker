@@ -22,6 +22,11 @@ jobs:
       - name: Build and Test
         run: |
            chmod +x gradlew
-           ./gradlew build
+           ./gradlew shadowJar
            ls -R
+           
+      - uses: actions/upload-artifact@v1
+        with:
+          name: sportstracker
+          path: build/libs
            
