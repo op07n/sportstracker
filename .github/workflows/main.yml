@@ -39,6 +39,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: 'build/libs/sportstracker-0.0.1-SNAPSHOT-all.jar'
-          asset_name: 'chef-helper.jar'
+          asset_name: 'sportstracker.jar'
           tag: ${{ github.ref }}
           overwrite: true  
