@@ -30,3 +30,11 @@ jobs:
           name: sportstracker
           path: build/libs
            
+      - name: Publish artefacts
+        uses: svenstaro/upload-release-action@v1-release
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: 'build/libs/sportstracker-0.0.1-SNAPSHOT-all.jar'
+          asset_name: 'chef-helper.jar'
+          tag: ${{ github.ref }}
+          overwrite: true  
