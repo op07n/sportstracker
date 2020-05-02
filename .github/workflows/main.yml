@@ -22,7 +22,6 @@ jobs:
       - name: Build and Test
         run: |
            chmod +x gradlew
-           ./gradlew init
-           cat build.gradle
+           ./gradlew build
            ls -R
            
