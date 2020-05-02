@@ -107,5 +107,5 @@ javafx {
 }
 
 application {
-  mainClassName = "sportstracker.STMain"
+  mainClassName = "de.saring.sportstracker.STMain"
 }
