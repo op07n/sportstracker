@@ -1,3 +1,6 @@
+Duplicate of https://github.com/ssaring/sportstracker
+
+
 ## SportsTracker
 
 SportsTracker is an application for people who want to track their sporting
