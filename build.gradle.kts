@@ -57,10 +57,10 @@ dependencies {
   
   //      implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.70'
   //      implementation 'org.openjfx:javafx-fxml:14'
-        implementation 'javax.inject:javax.inject:1'
-        implementation 'eu.lestard:easy-di:0.3.0'
-        implementation 'org.jdom:jdom2:2.0.6'
-        implementation 'org.jfree:jfreechart-fx:1.0.1'
+        implementation("javax.inject:javax.inject:1")
+        implementation("eu.lestard:easy-di:0.3.0")
+        implementation("org.jdom:jdom2:2.0.6")
+        implementation("org.jfree:jfreechart-fx:1.0.1")
      //   implementation 'org.controlsfx:controlsfx:11.0.0'
   //      testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.0'
    //     testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.4.0'
